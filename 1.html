@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My First Javascript</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to display date and time.</button>
+    <p id="demo"></p>
+    <button onclick="document.getElementById('myImage').src='bulbon.jfif'">Turn the light on</button>
+
+    <img src="bulboff.jfif" id="myImage" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='bulboff.jfif'">Turn the light off</button>
+    <p id="demo1">JavaScript can hide HTML elements.</p>
+
+    <button type="button" onclick="document.getElementById('demo1').style.display='none'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML='My First JavaScript'">Click Me!</button>
+
+
+</body>
+</html>
